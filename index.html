@@ -76,7 +76,8 @@
             </section>
             <h3 class="text-center m-2">Q.2:How does JavaScript work?</h3>
             <p>
-
+                JavaScript executing from up to lower. JS execution are divided two phase. 1. Data Loading Phase: in
+                this phase js scan all the variable and divided according to the scope reference.After the exicuti
             </p>
             <h3 class="text-center m-2">Q.3: What does JavaScript Event Loop do?</h3>
             <p class="text-center">JavaScript is a single thread, generic & event revent functional programming
@@ -89,7 +90,10 @@
                 JS to proper execution. When Call Stack(Last in First Out) will empty, <span class="text-primary">Event
                     Loop</span> call <span class="text-info">Queue(First in First Out)</span> and
                 call the WEB API and send the function to
-                <span class="text-info">Call Stack</span>.Exactly, <span class="text-info">Javascript Event Loop prevent
+                <span class="text-info">Call Stack(Last in First Out)</span>. <span class="text-primary">Event Loop make
+                    a connection with
+                    Call Stack &
+                    Queue</span> .Exactly, <span class="text-info">Javascript Event Loop prevent
                     Executing Block Behevior to
                     make
                     JavaScript fast.</span>
