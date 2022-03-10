@@ -84,11 +84,16 @@
                 Javascript code is executing synchronous-lly but any fuction calling like API fetch, timeout and
                 setInterval are exicuting asychronouslly. In execution phase if V8 engine or Node JS found a
                 asynchronous
-                function or a million line code that need more time to execution are send to WEB API or C++ API for Node
+                function or a million line code that need more time to execution are send to <span class="text-info">WEB
+                    API or C++ API</span> for Node
                 JS to proper execution. When Call Stack(Last in First Out) will empty, <span class="text-primary">Event
-                    Loop</span> call <span class="text-danger">Queue(First in First Out)</span> and
+                    Loop</span> call <span class="text-info">Queue(First in First Out)</span> and
                 call the WEB API and send the function to
-                Call Stack.Exactly, Javascript Event Loop </p>
+                <span class="text-info">Call Stack</span>.Exactly, <span class="text-info">Javascript Event Loop prevent
+                    Executing Block Behevior to
+                    make
+                    JavaScript fast.</span>
+            </p>
         </div>
     </main>
     <footer></footer>
